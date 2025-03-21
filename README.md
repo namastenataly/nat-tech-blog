@@ -16,7 +16,7 @@ Install dependencies with 'npm install', run 'node server.js'
 
 ## Screenshot 
 
-<img src="/Users/natgonza/Desktop/nat-tech-blog/nat-tech-blog/assets/techblog.png">
+<img src="./assets/techblog.png">
 
 ## Usage
 
