@@ -1,0 +1,17 @@
+<div class="p-2 mt-3">
+  <h2 class="font-monospace">Your Posts</h2>
+</div>
+
+{{#if posts}}
+<div class="d-block mt-2">
+  {{#each posts as |post|}}
+  {{> blogposts}}
+  {{/each}}
+</div>
+{{/if}}
+
+<div class="p-2 mt-3">
+  <button type="button" class="btn btn-success" id="add-post-button">Create a New Post</button>
+</div>
+
+<script src="/js/dashboard.js"></script>

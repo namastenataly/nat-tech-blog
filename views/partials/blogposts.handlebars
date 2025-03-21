@@ -1,0 +1,12 @@
+<div class="d-block p-2">
+  <div class="card shadow-sm mb-3 bg-light rounded">
+    <div class="card-header d-flex justify-content-between align-items-center">
+      <h5 class="mb-0">{{title}}</h5>
+      <small class="text-white">Posted by {{user.name}} on {{format_date updatedAt}}</small>
+    </div>
+    <div class="card-body">
+      <p>{{content}}</p>
+      <a href="/post/{{id}}" class="stretched-link"></a>
+    </div>
+  </div>
+</div>

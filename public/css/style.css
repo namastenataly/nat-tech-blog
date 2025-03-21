@@ -1,0 +1,40 @@
+body {
+  background-color: #f0f4f1;
+}
+
+header {
+  background-color: #004d40;
+}
+
+nav {
+  background-color: #c8e6c9;
+}
+
+h1 {
+  font-size: 300%;
+  color: #ffffff;
+}
+
+#welcome-header {
+  color: #ffffff;
+}
+
+.card-header {
+  background-color: #004d40;
+}
+
+.card-header p, .card-header h5 {
+  color: #ffffff;
+}
+
+.card-body {
+  background-color: #ffffff;
+}
+
+#dashboard-title {
+  color: #004d40;
+}
+
+form label {
+  color: #004d40;
+}

@@ -1,0 +1,26 @@
+{{!-- Sign Up Form --}}
+<div class="d-flex justify-content-center mt-5">
+  <div class="card w-50 p-4 shadow-sm">
+    <h2 class="text-center mb-4">Sign Up</h2>
+    <form class="signup-form">
+      <div class="mb-3">
+        <label for="usernameSignup" class="form-label">Username</label>
+        <input type="text" class="form-control" id="usernameSignup" placeholder="Enter Username" required>
+      </div>
+      <div class="mb-3">
+        <label for="emailSignup" class="form-label">Email</label>
+        <input type="email" class="form-control" id="emailSignup" placeholder="Enter Email" required>
+      </div>
+      <div class="mb-3">
+        <label for="passwordSignup" class="form-label">Password</label>
+        <input type="password" class="form-control" id="passwordSignup" placeholder="Enter Password" required>
+      </div>
+      <div class="d-flex justify-content-between">
+        <button type="submit" class="btn btn-primary">Submit</button>
+        <a href="/login" class="btn btn-link">Login</a>
+      </div>
+    </form>
+  </div>
+</div>
+
+<script src="/js/signup.js"></script>
